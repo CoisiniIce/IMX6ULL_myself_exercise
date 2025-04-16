@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=/usr/lib
+includedir=${prefix}/include/cutelyst2-qt5
+
+Name: Cutelyst Qt5 Sql Utils Plugin
+Description: Cutelyst Sql Utils Plugin
+Version: 2.9.0
+Requires: Qt5Core Cutelyst2Qt5Core
+Libs: -L${libdir} -lCutelyst2Qt5UtilsSql
+Cflags: -I${includedir}/Cutelyst -I${includedir}

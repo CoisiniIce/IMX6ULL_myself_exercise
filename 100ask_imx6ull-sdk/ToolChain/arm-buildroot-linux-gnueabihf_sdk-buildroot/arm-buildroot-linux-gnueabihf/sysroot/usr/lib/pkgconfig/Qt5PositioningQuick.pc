@@ -1,0 +1,13 @@
+prefix=/home/book/100ask_imx6ull-sdk/Buildroot_2020.02.x/output/host/arm-buildroot-linux-gnueabihf/sysroot/usr
+exec_prefix=${prefix}
+libdir=/usr/lib
+includedir=/usr/include/qt5
+
+
+Name: Qt5 PositioningQuick
+Description: Qt PositioningQuick module
+Version: 5.12.8
+Libs: -L${libdir} -lQt5PositioningQuick 
+Cflags: -DQT_POSITIONINGQUICK_LIB -I${includedir}/QtPositioningQuick -I${includedir}
+Requires: Qt5Quick Qt5Positioning Qt5Qml Qt5Core
+

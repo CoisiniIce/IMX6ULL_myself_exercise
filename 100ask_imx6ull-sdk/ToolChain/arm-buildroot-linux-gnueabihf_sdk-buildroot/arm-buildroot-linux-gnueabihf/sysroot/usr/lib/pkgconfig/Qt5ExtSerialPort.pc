@@ -1,0 +1,12 @@
+prefix=/home/book/100ask_imx6ull-sdk/Buildroot_2020.02.x/output/host/arm-buildroot-linux-gnueabihf/sysroot/usr
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5extserialport
+Description: Qt5extserialport Library
+Version: 1.2.0
+Libs: -lQt5ExtSerialPort 
+Cflags: 
+

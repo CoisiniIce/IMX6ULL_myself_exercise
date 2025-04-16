@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "Linux-4.9.88"
+		},
+		{
+			"path": "../nfs_rootfs/drivers_projects"
+		}
+	],
+	"settings": {}
+}

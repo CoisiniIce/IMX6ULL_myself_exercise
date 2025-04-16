@@ -1,0 +1,13 @@
+prefix=/home/book/100ask_imx6ull-sdk/Buildroot_2020.02.x/output/host/arm-buildroot-linux-gnueabihf/sysroot/usr
+exec_prefix=${prefix}
+libdir=/usr/lib
+includedir=/usr/include/qt5
+
+
+Name: Qt5 WebKit
+Description: Qt WebKit module
+Version: 5.9.1
+Libs: -L${libdir} -lQt5WebKit 
+Cflags: -DQT_WEBKIT_LIB -I${includedir}/QtWebKit -I${includedir}
+Requires: Qt5Core Qt5Gui Qt5Network
+

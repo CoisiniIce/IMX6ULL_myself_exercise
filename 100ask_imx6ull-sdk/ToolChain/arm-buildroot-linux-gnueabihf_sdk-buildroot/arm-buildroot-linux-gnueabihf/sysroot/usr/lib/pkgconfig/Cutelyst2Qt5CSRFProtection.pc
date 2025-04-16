@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=/usr/lib
+includedir=${prefix}/include/cutelyst2-qt5
+
+Name: Cutelyst Qt5 CSRF Protection Plugin
+Description: Cutelyst CSRF Protection plugin
+Version: 2.9.0
+Requires: Qt5Core Cutelyst2Qt5Core Cutelyst2Qt5Session
+Libs: -L${libdir} -lCutelyst2Qt5CSRFProtection
+Cflags: -I${includedir}/Cutelyst -I${includedir}

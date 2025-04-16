@@ -1,0 +1,11 @@
+prefix=/home/book/100ask_imx6ull-sdk/Buildroot_2020.02.x/output/host
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: wayland-egl
+Description: Frontend wayland-egl library
+Version: 18.1.0
+Requires: wayland-client
+Libs: -L${libdir} -lwayland-egl
+Cflags: -I${includedir}

@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=/usr/lib
+includedir=${prefix}/include/cutelyst2-qt5
+
+Name: Cutelyst Qt5 UserAgent Plugin
+Description: Cutelyst UserAgent plugin
+Version: 2.9.0
+Requires: Qt5Core Cutelyst2Qt5Core
+Libs: -L${libdir} -lCutelyst2Qt5UserAgent
+Cflags: -I${includedir}/Cutelyst -I${includedir}

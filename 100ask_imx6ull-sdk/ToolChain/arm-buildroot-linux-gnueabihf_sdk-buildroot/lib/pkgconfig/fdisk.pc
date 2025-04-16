@@ -1,0 +1,11 @@
+prefix=/home/book/100ask_imx6ull-sdk/Buildroot_2020.02.x/output/host
+exec_prefix=/home/book/100ask_imx6ull-sdk/Buildroot_2020.02.x/output/host
+libdir=/home/book/100ask_imx6ull-sdk/Buildroot_2020.02.x/output/host/lib
+includedir=/home/book/100ask_imx6ull-sdk/Buildroot_2020.02.x/output/host/include
+
+Name: fdisk
+Description: fdisk library
+Version: 2.35.1
+Requires.private: uuid blkid
+Cflags: -I${includedir}/libfdisk
+Libs: -L${libdir} -lfdisk

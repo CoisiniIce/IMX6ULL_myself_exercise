@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsrtp2
+Version: 2.2.0
+Description: Library for SRTP (Secure Realtime Transport Protocol)
+
+Libs: -L${libdir} -lsrtp2 -L/home/book/100ask_imx6ull-sdk/Buildroot_2020.02.x/output/host/bin/../arm-buildroot-linux-gnueabihf/sysroot/usr/lib -lcrypto -ldl -pthread -latomic -lpthread  
+Cflags: -I${includedir}

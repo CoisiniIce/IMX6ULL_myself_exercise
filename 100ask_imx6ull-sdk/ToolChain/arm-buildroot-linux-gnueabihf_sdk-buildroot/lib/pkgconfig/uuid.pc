@@ -1,0 +1,11 @@
+prefix=/home/book/100ask_imx6ull-sdk/Buildroot_2020.02.x/output/host
+exec_prefix=/home/book/100ask_imx6ull-sdk/Buildroot_2020.02.x/output/host
+libdir=/home/book/100ask_imx6ull-sdk/Buildroot_2020.02.x/output/host/lib
+includedir=/home/book/100ask_imx6ull-sdk/Buildroot_2020.02.x/output/host/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.35.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

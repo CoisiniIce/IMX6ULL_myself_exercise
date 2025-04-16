@@ -1,0 +1,14 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: libavformat
+Description: FFmpeg container format library
+Version: 58.29.100
+Requires: 
+Requires.private: libavcodec >= 58.54.100, libswresample >= 3.5.100, libavutil >= 56.31.100
+Conflicts:
+Libs: -L${libdir}  -lavformat 
+Libs.private: -lm -lbz2 -L/home/book/100ask_imx6ull-sdk/Buildroot_2020.02.x/output/host/bin/../arm-buildroot-linux-gnueabihf/sysroot/usr/lib -lz -L/home/book/100ask_imx6ull-sdk/Buildroot_2020.02.x/output/host/bin/../arm-buildroot-linux-gnueabihf/sysroot/usr/lib -lssl -lcrypto -L/home/book/100ask_imx6ull-sdk/Buildroot_2020.02.x/output/host/bin/../arm-buildroot-linux-gnueabihf/sysroot/usr/lib -lrtmp -lz
+Cflags: -I${includedir}

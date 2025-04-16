@@ -1,0 +1,5 @@
+QMAKE_PRL_BUILD_DIR = /home/book/100ask_imx6ull-sdk/Buildroot_2020.02.x/output/build/qextserialport-ada321a9ee463f628e7b781b8ed00ff219152158
+QMAKE_PRO_INPUT = qextserialport.pro
+QMAKE_PRL_TARGET = libQt5ExtSerialPort.so.1.2.0
+QMAKE_PRL_CONFIG = lex yacc exceptions depend_includepath testcase_targets import_plugins import_qpa_plugin file_copies qmake_use qt warn_on release link_prl incremental nostrip cross_compile shared release linux unix posix gcc create_prl create_pc shared have_target dll thread moc resources
+QMAKE_PRL_VERSION = 1.2.0

@@ -1,0 +1,10 @@
+prefix=/home/book/100ask_imx6ull-sdk/Buildroot_2020.02.x/output/host
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: GThread
+Description: Thread support for GLib
+Version: 2.62.5
+Requires: glib-2.0
+Libs: -L${libdir} -lgthread-2.0 -pthread
+Cflags: -I${includedir} -pthread

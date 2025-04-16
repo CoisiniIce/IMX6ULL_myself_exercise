@@ -1,0 +1,13 @@
+prefix=/home/book/100ask_imx6ull-sdk/Buildroot_2020.02.x/output/host/arm-buildroot-linux-gnueabihf/sysroot/usr
+exec_prefix=${prefix}
+libdir=/usr/lib
+includedir=/usr/include/qt5
+
+
+Name: Qt5 WebChannel
+Description: Qt WebChannel module
+Version: 5.12.8
+Libs: -L${libdir} -lQt5WebChannel 
+Cflags: -DQT_WEBCHANNEL_LIB -I${includedir}/QtWebChannel -I${includedir}
+Requires: Qt5Core Qt5Qml
+

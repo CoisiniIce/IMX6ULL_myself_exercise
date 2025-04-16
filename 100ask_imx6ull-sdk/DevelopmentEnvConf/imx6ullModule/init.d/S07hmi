@@ -1,0 +1,49 @@
+#!/bin/sh
+
+start() {
+	#Prohibit display of cursor
+	echo -e "\033[?25l"  > /dev/tty1
+	#close lcd sleep
+	echo -e "\033[9;0]" > /dev/tty1
+	# demo start 
+	export TSLIB_TSDEVICE=/dev/input/event10
+	export TSLIB_CONFFILE=/etc/ts.conf              
+	export TSLIB_CALIBFILE=/etc/pointercal  
+	export TSLIB_PLUGINDIR=/usr/lib/ts
+	export TSLIB_CONSOLEDEVICE=none
+	export QT_QPA_FB_TSLIB=1
+	export QT_QPA_GENERIC_PLUGINS=tslib:/dev/input/event10
+
+
+	echo 7 > /sys/class/backlight/backlight/brightness
+
+	python /usr/share/myir/init_boardcfg.py &
+
+	if test -z "$DBUS_SESSION_BUS_ADDRESS" ; then
+		eval `dbus-launch --sh-syntax`
+		echo "D-Bus per-session daemon address is: $DBUS_SESSION_BUS_ADDRESS"
+	fi
+		export DBUS_SESSION_BUS_ADDRESS="$DBUS_SESSION_BUS_ADDRESS"
+
+	/home/myir/mxbackend &
+	/home/myir/mxapp --platform linuxfb &
+	python /usr/share/myir/www/server.py &	
+}
+
+stop() {
+	exit 1	
+}
+case "$1" in 
+	start)
+		start
+		;;
+	stop)
+		stop
+		;;
+	*)
+		echo "Usage: $0 {start| stop|restart}"
+		exit 1
+esac
+
+exit $?
+

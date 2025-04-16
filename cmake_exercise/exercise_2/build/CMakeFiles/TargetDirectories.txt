@@ -1,0 +1,4 @@
+/home/book/myself_exercise/cmake_exercise/exercise_2/build/CMakeFiles/edit_cache.dir
+/home/book/myself_exercise/cmake_exercise/exercise_2/build/CMakeFiles/calc.dir
+/home/book/myself_exercise/cmake_exercise/exercise_2/build/CMakeFiles/rebuild_cache.dir
+/home/book/myself_exercise/cmake_exercise/exercise_2/build/CMakeFiles/App.dir

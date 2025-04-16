@@ -1,0 +1,22 @@
+=head2 Fri Oct  9 04:05:47 2020: C<Module> L<XML::Parser|XML::Parser>
+
+=over 4
+
+=item *
+
+C<installed into: /home/book/100ask_imx6ull-sdk/Buildroot_2020.02.x/output/host/lib/perl>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.46>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

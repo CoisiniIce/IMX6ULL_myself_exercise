@@ -1,0 +1,13 @@
+prefix=/home/book/100ask_imx6ull-sdk/Buildroot_2020.02.x/output/host/arm-buildroot-linux-gnueabihf/sysroot/usr
+exec_prefix=${prefix}
+libdir=/usr/lib
+includedir=/usr/include/qt5
+
+
+Name: Qt5 WebKitWidgets
+Description: Qt WebKitWidgets module
+Version: 5.9.1
+Libs: -L${libdir} -lQt5WebKitWidgets 
+Cflags: -DQT_WEBKITWIDGETS_LIB -I${includedir}/QtWebKitWidgets -I${includedir}
+Requires: Qt5Core Qt5Gui Qt5Widgets Qt5Network Qt5WebKit
+

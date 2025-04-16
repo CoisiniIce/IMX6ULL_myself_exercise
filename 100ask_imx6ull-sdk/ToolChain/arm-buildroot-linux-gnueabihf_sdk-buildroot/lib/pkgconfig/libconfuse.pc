@@ -1,0 +1,13 @@
+prefix=/home/book/100ask_imx6ull-sdk/Buildroot_2020.02.x/output/host
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+
+Name: confuse
+Version: 3.3
+Description: configuration file parser library
+Requires: 
+Libs: -L${libdir} -lconfuse 
+Cflags: -I${includedir}
+

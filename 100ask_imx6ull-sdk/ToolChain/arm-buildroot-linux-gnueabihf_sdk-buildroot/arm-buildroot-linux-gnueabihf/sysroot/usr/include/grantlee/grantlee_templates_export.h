@@ -1,0 +1,44 @@
+
+#ifndef GRANTLEE_TEMPLATES_EXPORT_H
+#define GRANTLEE_TEMPLATES_EXPORT_H
+
+#ifdef GRANTLEE_TEMPLATES_STATIC_DEFINE
+#  define GRANTLEE_TEMPLATES_EXPORT
+#  define GRANTLEE_TEMPLATES_NO_EXPORT
+#else
+#  ifndef GRANTLEE_TEMPLATES_EXPORT
+#    ifdef Grantlee_Templates_EXPORTS
+        /* We are building this library */
+#      define GRANTLEE_TEMPLATES_EXPORT __attribute__((visibility("default")))
+#    else
+        /* We are using this library */
+#      define GRANTLEE_TEMPLATES_EXPORT __attribute__((visibility("default")))
+#    endif
+#  endif
+
+#  ifndef GRANTLEE_TEMPLATES_NO_EXPORT
+#    define GRANTLEE_TEMPLATES_NO_EXPORT __attribute__((visibility("hidden")))
+#  endif
+#endif
+
+#ifndef GRANTLEE_TEMPLATES_DEPRECATED
+#  define GRANTLEE_TEMPLATES_DEPRECATED __attribute__ ((__deprecated__))
+#endif
+
+#ifndef GRANTLEE_TEMPLATES_DEPRECATED_EXPORT
+#  define GRANTLEE_TEMPLATES_DEPRECATED_EXPORT GRANTLEE_TEMPLATES_EXPORT GRANTLEE_TEMPLATES_DEPRECATED
+#endif
+
+#ifndef GRANTLEE_TEMPLATES_DEPRECATED_NO_EXPORT
+#  define GRANTLEE_TEMPLATES_DEPRECATED_NO_EXPORT GRANTLEE_TEMPLATES_NO_EXPORT GRANTLEE_TEMPLATES_DEPRECATED
+#endif
+
+#if 0 /* DEFINE_NO_DEPRECATED */
+#  ifndef GRANTLEE_TEMPLATES_NO_DEPRECATED
+#    define GRANTLEE_TEMPLATES_NO_DEPRECATED
+#  endif
+#endif
+
+#endif /* GRANTLEE_TEMPLATES_EXPORT_H */
+
+#define GRANTLEE_TESTS_EXPORT 

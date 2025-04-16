@@ -1,0 +1,9 @@
+prefix=/home/book/100ask_imx6ull-sdk/Buildroot_2020.02.x/output/host
+exec_prefix=${prefix}
+datarootdir=${prefix}/share
+pkgdatadir=${datarootdir}/wayland
+wayland_scanner=${exec_prefix}/bin/wayland-scanner
+
+Name: Wayland Scanner
+Description: Wayland scanner
+Version: 1.17.0

@@ -1,0 +1,11 @@
+prefix=/home/book/100ask_imx6ull-sdk/Buildroot_2020.02.x/output/host
+exec_prefix=/home/book/100ask_imx6ull-sdk/Buildroot_2020.02.x/output/host
+libdir=/home/book/100ask_imx6ull-sdk/Buildroot_2020.02.x/output/host/lib
+includedir=/home/book/100ask_imx6ull-sdk/Buildroot_2020.02.x/output/host/include
+
+Name: libkmod
+Description: Library to deal with kernel modules
+Version: 26
+Libs: -L${libdir} -lkmod
+Libs.private:  
+Cflags: -I${includedir}

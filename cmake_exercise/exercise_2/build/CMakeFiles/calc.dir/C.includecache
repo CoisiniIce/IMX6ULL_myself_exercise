@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/book/myself_exercise/cmake_exercise/exercise_2/src/add.c
+
+/home/book/myself_exercise/cmake_exercise/exercise_2/src/divide.c
+stdio.h
+-
+
+/home/book/myself_exercise/cmake_exercise/exercise_2/src/multiply.c
+
+/home/book/myself_exercise/cmake_exercise/exercise_2/src/subtract.c
+

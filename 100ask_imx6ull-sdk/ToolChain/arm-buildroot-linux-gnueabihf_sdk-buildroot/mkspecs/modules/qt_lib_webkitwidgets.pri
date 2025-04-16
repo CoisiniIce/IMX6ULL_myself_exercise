@@ -1,0 +1,16 @@
+QT.webkitwidgets.VERSION = 5.9.1
+QT.webkitwidgets.name = QtWebKitWidgets
+QT.webkitwidgets.module = Qt5WebKitWidgets
+QT.webkitwidgets.libs = $$QT_MODULE_LIB_BASE
+QT.webkitwidgets.includes = $$QT_MODULE_INCLUDE_BASE $$QT_MODULE_INCLUDE_BASE/QtWebKitWidgets
+QT.webkitwidgets.frameworks =
+QT.webkitwidgets.bins = $$QT_MODULE_BIN_BASE
+QT.webkitwidgets.depends = core gui widgets network webkit
+QT.webkitwidgets.run_depends = sensors positioning widgets_private printsupport opengl sql core_private gui_private
+QT.webkitwidgets.uses =
+QT.webkitwidgets.module_config = v2
+QT.webkitwidgets.DEFINES = QT_WEBKITWIDGETS_LIB
+QT.webkitwidgets.enabled_features =
+QT.webkitwidgets.disabled_features =
+QT_CONFIG +=
+QT_MODULES += webkitwidgets

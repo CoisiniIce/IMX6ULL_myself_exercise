@@ -1,0 +1,13 @@
+prefix=/home/book/100ask_imx6ull-sdk/Buildroot_2020.02.x/output/host/arm-buildroot-linux-gnueabihf/sysroot/usr
+exec_prefix=${prefix}
+libdir=/usr/lib
+includedir=/usr/include/qt5
+
+
+Name: Qt5 Location
+Description: Qt Location module
+Version: 5.12.8
+Libs: -L${libdir} -lQt5Location 
+Cflags: -DQT_LOCATION_LIB -I${includedir}/QtLocation -I${includedir}
+Requires: Qt5Core Qt5Positioning Qt5Gui Qt5Quick Qt5Network Qt5PositioningQuick Qt5Qml
+

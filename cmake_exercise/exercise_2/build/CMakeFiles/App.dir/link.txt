@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/App.dir/main.c.o  -o ../App  -L/home/book/myself_exercise/cmake_exercise/exercise_2/lib -Wl,-rpath,/home/book/myself_exercise/cmake_exercise/exercise_2/lib ../lib/libcalc.so 
