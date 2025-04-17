@@ -138,7 +138,7 @@ CMakeFiles/driver_test.dir/all: ui/lvgl/CMakeFiles/lvgl_examples.dir/all
 CMakeFiles/driver_test.dir/all: ui/lv_drivers/CMakeFiles/lv_drivers.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver_test.dir/build.make CMakeFiles/driver_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver_test.dir/build.make CMakeFiles/driver_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/book/myself_exercise/project_driver_test/build/CMakeFiles --progress-num= "Built target driver_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/book/myself_exercise/project_driver_test/build/CMakeFiles --progress-num=1 "Built target driver_test"
 .PHONY : CMakeFiles/driver_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -155,7 +155,7 @@ driver_test: CMakeFiles/driver_test.dir/rule
 # codegen rule for target.
 CMakeFiles/driver_test.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver_test.dir/build.make CMakeFiles/driver_test.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/book/myself_exercise/project_driver_test/build/CMakeFiles --progress-num= "Finished codegen for target driver_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/book/myself_exercise/project_driver_test/build/CMakeFiles --progress-num=1 "Finished codegen for target driver_test"
 .PHONY : CMakeFiles/driver_test.dir/codegen
 
 # clean rule for target.
@@ -170,12 +170,12 @@ CMakeFiles/driver_test.dir/clean:
 ui/lvgl/CMakeFiles/lvgl.dir/all:
 	$(MAKE) $(MAKESILENT) -f ui/lvgl/CMakeFiles/lvgl.dir/build.make ui/lvgl/CMakeFiles/lvgl.dir/depend
 	$(MAKE) $(MAKESILENT) -f ui/lvgl/CMakeFiles/lvgl.dir/build.make ui/lvgl/CMakeFiles/lvgl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/book/myself_exercise/project_driver_test/build/CMakeFiles --progress-num=6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47 "Built target lvgl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/book/myself_exercise/project_driver_test/build/CMakeFiles --progress-num=7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47 "Built target lvgl"
 .PHONY : ui/lvgl/CMakeFiles/lvgl.dir/all
 
 # Build rule for subdir invocation for target.
 ui/lvgl/CMakeFiles/lvgl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/book/myself_exercise/project_driver_test/build/CMakeFiles 42
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/book/myself_exercise/project_driver_test/build/CMakeFiles 41
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ui/lvgl/CMakeFiles/lvgl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/book/myself_exercise/project_driver_test/build/CMakeFiles 0
 .PHONY : ui/lvgl/CMakeFiles/lvgl.dir/rule
@@ -187,7 +187,7 @@ lvgl: ui/lvgl/CMakeFiles/lvgl.dir/rule
 # codegen rule for target.
 ui/lvgl/CMakeFiles/lvgl.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f ui/lvgl/CMakeFiles/lvgl.dir/build.make ui/lvgl/CMakeFiles/lvgl.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/book/myself_exercise/project_driver_test/build/CMakeFiles --progress-num=6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47 "Finished codegen for target lvgl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/book/myself_exercise/project_driver_test/build/CMakeFiles --progress-num=7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47 "Finished codegen for target lvgl"
 .PHONY : ui/lvgl/CMakeFiles/lvgl.dir/codegen
 
 # clean rule for target.
@@ -207,7 +207,7 @@ ui/lvgl/CMakeFiles/lvgl_examples.dir/all: ui/lvgl/CMakeFiles/lvgl.dir/all
 
 # Build rule for subdir invocation for target.
 ui/lvgl/CMakeFiles/lvgl_examples.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/book/myself_exercise/project_driver_test/build/CMakeFiles 81
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/book/myself_exercise/project_driver_test/build/CMakeFiles 80
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ui/lvgl/CMakeFiles/lvgl_examples.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/book/myself_exercise/project_driver_test/build/CMakeFiles 0
 .PHONY : ui/lvgl/CMakeFiles/lvgl_examples.dir/rule
@@ -239,7 +239,7 @@ ui/lvgl/CMakeFiles/lvgl_demos.dir/all: ui/lvgl/CMakeFiles/lvgl.dir/all
 
 # Build rule for subdir invocation for target.
 ui/lvgl/CMakeFiles/lvgl_demos.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/book/myself_exercise/project_driver_test/build/CMakeFiles 56
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/book/myself_exercise/project_driver_test/build/CMakeFiles 55
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ui/lvgl/CMakeFiles/lvgl_demos.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/book/myself_exercise/project_driver_test/build/CMakeFiles 0
 .PHONY : ui/lvgl/CMakeFiles/lvgl_demos.dir/rule
@@ -266,12 +266,12 @@ ui/lvgl/CMakeFiles/lvgl_demos.dir/clean:
 ui/lv_drivers/CMakeFiles/lv_drivers.dir/all: ui/lvgl/CMakeFiles/lvgl.dir/all
 	$(MAKE) $(MAKESILENT) -f ui/lv_drivers/CMakeFiles/lv_drivers.dir/build.make ui/lv_drivers/CMakeFiles/lv_drivers.dir/depend
 	$(MAKE) $(MAKESILENT) -f ui/lv_drivers/CMakeFiles/lv_drivers.dir/build.make ui/lv_drivers/CMakeFiles/lv_drivers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/book/myself_exercise/project_driver_test/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target lv_drivers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/book/myself_exercise/project_driver_test/build/CMakeFiles --progress-num=2,3,4,5,6 "Built target lv_drivers"
 .PHONY : ui/lv_drivers/CMakeFiles/lv_drivers.dir/all
 
 # Build rule for subdir invocation for target.
 ui/lv_drivers/CMakeFiles/lv_drivers.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/book/myself_exercise/project_driver_test/build/CMakeFiles 47
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/book/myself_exercise/project_driver_test/build/CMakeFiles 46
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ui/lv_drivers/CMakeFiles/lv_drivers.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/book/myself_exercise/project_driver_test/build/CMakeFiles 0
 .PHONY : ui/lv_drivers/CMakeFiles/lv_drivers.dir/rule
@@ -283,7 +283,7 @@ lv_drivers: ui/lv_drivers/CMakeFiles/lv_drivers.dir/rule
 # codegen rule for target.
 ui/lv_drivers/CMakeFiles/lv_drivers.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f ui/lv_drivers/CMakeFiles/lv_drivers.dir/build.make ui/lv_drivers/CMakeFiles/lv_drivers.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/book/myself_exercise/project_driver_test/build/CMakeFiles --progress-num=1,2,3,4,5 "Finished codegen for target lv_drivers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/book/myself_exercise/project_driver_test/build/CMakeFiles --progress-num=2,3,4,5,6 "Finished codegen for target lv_drivers"
 .PHONY : ui/lv_drivers/CMakeFiles/lv_drivers.dir/codegen
 
 # clean rule for target.

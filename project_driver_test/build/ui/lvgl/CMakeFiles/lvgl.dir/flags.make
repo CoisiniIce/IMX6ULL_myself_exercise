@@ -4,7 +4,7 @@
 # compile C with /home/book/myself_exercise/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc
 C_DEFINES = -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE
 
-C_INCLUDES = -I/home/book/myself_exercise/project_driver_test/include -I/home/book/myself_exercise/project_driver_test/ui -isystem /home/book/myself_exercise/project_driver_test/ui/lvgl
+C_INCLUDES = -I/home/book/myself_exercise/project_driver_test/include -I/home/book/myself_exercise/project_driver_test/ui -I/home/book/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/freetype2 -isystem /home/book/myself_exercise/project_driver_test/ui/lvgl
 
 C_FLAGS = 
 

@@ -1,4 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/driver_test.dir/page/bg_1024x600.c.o"
+  "CMakeFiles/driver_test.dir/page/bg_1024x600.c.o.d"
+  "CMakeFiles/driver_test.dir/page/main_page.c.o"
+  "CMakeFiles/driver_test.dir/page/main_page.c.o.d"
+  "CMakeFiles/driver_test.dir/page/page_manager.c.o"
+  "CMakeFiles/driver_test.dir/page/page_manager.c.o.d"
   "CMakeFiles/driver_test.dir/sys/main.c.o"
   "CMakeFiles/driver_test.dir/sys/main.c.o.d"
   "CMakeFiles/driver_test.dir/ui/ui.c.o"

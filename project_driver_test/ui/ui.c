@@ -1,14 +1,18 @@
 #include "ui.h"
 
 #define DISP_BUF_SIZE (1024 * 128)
+#define FREETYPE_FONT_FILE ("/etc/JetBrainsMono-Regular.ttf")
 
 lv_indev_t *mouse_indev;
+lv_ft_info_t ft_info;
 
 bool ui_init(void) {
   // lvgl初始化
   lv_init();
   // 显示器初始化
   fbdev_init();
+  // 初始化 freetype
+  lv_freetype_init(8, 64, 64);
   // 绘制屏幕内容时的buffer
   static lv_color_t buf[DISP_BUF_SIZE];
   // 初始化buffer描述符
@@ -37,18 +41,29 @@ bool ui_init(void) {
   indev_drv_1.read_cb = evdev_read;
   mouse_indev = lv_indev_drv_register(&indev_drv_1);
 
+  // Freetype
+  ft_info.name = FREETYPE_FONT_FILE;
+  ft_info.weight = 24;
+  ft_info.style = FT_FONT_STYLE_NORMAL;
+  ft_info.mem = NULL;
+  if (!lv_ft_font_init(&ft_info)) {
+    printf("create fialed.\r\n");
+  }
+
   // 使用输入设备必须创建一个组
   lv_group_t *g = lv_group_create();
   // 添加到默认组
   lv_group_set_default(g);
   // 输入设备添加进组
-  lv_indev_set_group(mouse_indev,g);
+  lv_indev_set_group(mouse_indev, g);
 
-  lv_obj_t *btn = lv_btn_create(lv_scr_act());
-  lv_obj_set_size(btn, 100, 50);
-  lv_obj_align(btn, LV_ALIGN_CENTER, 0, 0);
+  return true;
+}
 
+bool ft_set_font_size(uint8_t f_size) {
 
+  ft_info.weight = f_size;
+  lv_ft_font_init(&ft_info);
   return true;
 }
 

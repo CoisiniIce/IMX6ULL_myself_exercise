@@ -100,23 +100,71 @@ CMakeFiles/driver_test.dir/ui/ui.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/driver_test.dir/ui/ui.c.s"
 	/home/book/myself_exercise/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/book/myself_exercise/project_driver_test/ui/ui.c -o CMakeFiles/driver_test.dir/ui/ui.c.s
 
+CMakeFiles/driver_test.dir/page/bg_1024x600.c.o: CMakeFiles/driver_test.dir/flags.make
+CMakeFiles/driver_test.dir/page/bg_1024x600.c.o: /home/book/myself_exercise/project_driver_test/page/bg_1024x600.c
+CMakeFiles/driver_test.dir/page/bg_1024x600.c.o: CMakeFiles/driver_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/book/myself_exercise/project_driver_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/driver_test.dir/page/bg_1024x600.c.o"
+	/home/book/myself_exercise/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/driver_test.dir/page/bg_1024x600.c.o -MF CMakeFiles/driver_test.dir/page/bg_1024x600.c.o.d -o CMakeFiles/driver_test.dir/page/bg_1024x600.c.o -c /home/book/myself_exercise/project_driver_test/page/bg_1024x600.c
+
+CMakeFiles/driver_test.dir/page/bg_1024x600.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/driver_test.dir/page/bg_1024x600.c.i"
+	/home/book/myself_exercise/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/book/myself_exercise/project_driver_test/page/bg_1024x600.c > CMakeFiles/driver_test.dir/page/bg_1024x600.c.i
+
+CMakeFiles/driver_test.dir/page/bg_1024x600.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/driver_test.dir/page/bg_1024x600.c.s"
+	/home/book/myself_exercise/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/book/myself_exercise/project_driver_test/page/bg_1024x600.c -o CMakeFiles/driver_test.dir/page/bg_1024x600.c.s
+
+CMakeFiles/driver_test.dir/page/main_page.c.o: CMakeFiles/driver_test.dir/flags.make
+CMakeFiles/driver_test.dir/page/main_page.c.o: /home/book/myself_exercise/project_driver_test/page/main_page.c
+CMakeFiles/driver_test.dir/page/main_page.c.o: CMakeFiles/driver_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/book/myself_exercise/project_driver_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/driver_test.dir/page/main_page.c.o"
+	/home/book/myself_exercise/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/driver_test.dir/page/main_page.c.o -MF CMakeFiles/driver_test.dir/page/main_page.c.o.d -o CMakeFiles/driver_test.dir/page/main_page.c.o -c /home/book/myself_exercise/project_driver_test/page/main_page.c
+
+CMakeFiles/driver_test.dir/page/main_page.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/driver_test.dir/page/main_page.c.i"
+	/home/book/myself_exercise/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/book/myself_exercise/project_driver_test/page/main_page.c > CMakeFiles/driver_test.dir/page/main_page.c.i
+
+CMakeFiles/driver_test.dir/page/main_page.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/driver_test.dir/page/main_page.c.s"
+	/home/book/myself_exercise/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/book/myself_exercise/project_driver_test/page/main_page.c -o CMakeFiles/driver_test.dir/page/main_page.c.s
+
+CMakeFiles/driver_test.dir/page/page_manager.c.o: CMakeFiles/driver_test.dir/flags.make
+CMakeFiles/driver_test.dir/page/page_manager.c.o: /home/book/myself_exercise/project_driver_test/page/page_manager.c
+CMakeFiles/driver_test.dir/page/page_manager.c.o: CMakeFiles/driver_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/book/myself_exercise/project_driver_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/driver_test.dir/page/page_manager.c.o"
+	/home/book/myself_exercise/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/driver_test.dir/page/page_manager.c.o -MF CMakeFiles/driver_test.dir/page/page_manager.c.o.d -o CMakeFiles/driver_test.dir/page/page_manager.c.o -c /home/book/myself_exercise/project_driver_test/page/page_manager.c
+
+CMakeFiles/driver_test.dir/page/page_manager.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/driver_test.dir/page/page_manager.c.i"
+	/home/book/myself_exercise/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/book/myself_exercise/project_driver_test/page/page_manager.c > CMakeFiles/driver_test.dir/page/page_manager.c.i
+
+CMakeFiles/driver_test.dir/page/page_manager.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/driver_test.dir/page/page_manager.c.s"
+	/home/book/myself_exercise/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/book/myself_exercise/project_driver_test/page/page_manager.c -o CMakeFiles/driver_test.dir/page/page_manager.c.s
+
 # Object files for target driver_test
 driver_test_OBJECTS = \
 "CMakeFiles/driver_test.dir/sys/main.c.o" \
-"CMakeFiles/driver_test.dir/ui/ui.c.o"
+"CMakeFiles/driver_test.dir/ui/ui.c.o" \
+"CMakeFiles/driver_test.dir/page/bg_1024x600.c.o" \
+"CMakeFiles/driver_test.dir/page/main_page.c.o" \
+"CMakeFiles/driver_test.dir/page/page_manager.c.o"
 
 # External object files for target driver_test
 driver_test_EXTERNAL_OBJECTS =
 
 driver_test: CMakeFiles/driver_test.dir/sys/main.c.o
 driver_test: CMakeFiles/driver_test.dir/ui/ui.c.o
+driver_test: CMakeFiles/driver_test.dir/page/bg_1024x600.c.o
+driver_test: CMakeFiles/driver_test.dir/page/main_page.c.o
+driver_test: CMakeFiles/driver_test.dir/page/page_manager.c.o
 driver_test: CMakeFiles/driver_test.dir/build.make
 driver_test: lib/liblvgl.a
 driver_test: ui/lvgl/liblvgl_examples.a
 driver_test: lib/liblv_drivers.a
 driver_test: lib/liblvgl.a
 driver_test: CMakeFiles/driver_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/book/myself_exercise/project_driver_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable driver_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/book/myself_exercise/project_driver_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable driver_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/driver_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

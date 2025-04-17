@@ -226,6 +226,78 @@ lv_drivers/fast:
 	$(MAKE) $(MAKESILENT) -f ui/lv_drivers/CMakeFiles/lv_drivers.dir/build.make ui/lv_drivers/CMakeFiles/lv_drivers.dir/build
 .PHONY : lv_drivers/fast
 
+page/bg_1024x600.o: page/bg_1024x600.c.o
+.PHONY : page/bg_1024x600.o
+
+# target to build an object file
+page/bg_1024x600.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver_test.dir/build.make CMakeFiles/driver_test.dir/page/bg_1024x600.c.o
+.PHONY : page/bg_1024x600.c.o
+
+page/bg_1024x600.i: page/bg_1024x600.c.i
+.PHONY : page/bg_1024x600.i
+
+# target to preprocess a source file
+page/bg_1024x600.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver_test.dir/build.make CMakeFiles/driver_test.dir/page/bg_1024x600.c.i
+.PHONY : page/bg_1024x600.c.i
+
+page/bg_1024x600.s: page/bg_1024x600.c.s
+.PHONY : page/bg_1024x600.s
+
+# target to generate assembly for a file
+page/bg_1024x600.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver_test.dir/build.make CMakeFiles/driver_test.dir/page/bg_1024x600.c.s
+.PHONY : page/bg_1024x600.c.s
+
+page/main_page.o: page/main_page.c.o
+.PHONY : page/main_page.o
+
+# target to build an object file
+page/main_page.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver_test.dir/build.make CMakeFiles/driver_test.dir/page/main_page.c.o
+.PHONY : page/main_page.c.o
+
+page/main_page.i: page/main_page.c.i
+.PHONY : page/main_page.i
+
+# target to preprocess a source file
+page/main_page.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver_test.dir/build.make CMakeFiles/driver_test.dir/page/main_page.c.i
+.PHONY : page/main_page.c.i
+
+page/main_page.s: page/main_page.c.s
+.PHONY : page/main_page.s
+
+# target to generate assembly for a file
+page/main_page.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver_test.dir/build.make CMakeFiles/driver_test.dir/page/main_page.c.s
+.PHONY : page/main_page.c.s
+
+page/page_manager.o: page/page_manager.c.o
+.PHONY : page/page_manager.o
+
+# target to build an object file
+page/page_manager.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver_test.dir/build.make CMakeFiles/driver_test.dir/page/page_manager.c.o
+.PHONY : page/page_manager.c.o
+
+page/page_manager.i: page/page_manager.c.i
+.PHONY : page/page_manager.i
+
+# target to preprocess a source file
+page/page_manager.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver_test.dir/build.make CMakeFiles/driver_test.dir/page/page_manager.c.i
+.PHONY : page/page_manager.c.i
+
+page/page_manager.s: page/page_manager.c.s
+.PHONY : page/page_manager.s
+
+# target to generate assembly for a file
+page/page_manager.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver_test.dir/build.make CMakeFiles/driver_test.dir/page/page_manager.c.s
+.PHONY : page/page_manager.c.s
+
 sys/main.o: sys/main.c.o
 .PHONY : sys/main.o
 
@@ -291,6 +363,15 @@ help:
 	@echo "... lvgl"
 	@echo "... lvgl_demos"
 	@echo "... lvgl_examples"
+	@echo "... page/bg_1024x600.o"
+	@echo "... page/bg_1024x600.i"
+	@echo "... page/bg_1024x600.s"
+	@echo "... page/main_page.o"
+	@echo "... page/main_page.i"
+	@echo "... page/main_page.s"
+	@echo "... page/page_manager.o"
+	@echo "... page/page_manager.i"
+	@echo "... page/page_manager.s"
 	@echo "... sys/main.o"
 	@echo "... sys/main.i"
 	@echo "... sys/main.s"

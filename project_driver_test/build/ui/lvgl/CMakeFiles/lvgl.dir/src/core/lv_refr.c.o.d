@@ -126,4 +126,11 @@ ui/lvgl/CMakeFiles/lvgl.dir/src/core/lv_refr.c.o: \
  /home/book/myself_exercise/project_driver_test/ui/lvgl/src/core/../font/lv_font.h \
  /home/book/myself_exercise/project_driver_test/ui/lvgl/src/core/../extra/others/snapshot/lv_snapshot.h \
  /home/book/myself_exercise/project_driver_test/ui/lvgl/src/core/../extra/others/snapshot/../../../lv_conf_internal.h \
- /home/book/myself_exercise/project_driver_test/ui/lvgl/src/core/../extra/others/snapshot/../../../core/lv_obj.h
+ /home/book/myself_exercise/project_driver_test/ui/lvgl/src/core/../extra/others/snapshot/../../../core/lv_obj.h \
+ /home/book/myself_exercise/project_driver_test/ui/lvgl/src/core/../widgets/lv_label.h \
+ /home/book/myself_exercise/project_driver_test/ui/lvgl/src/core/../widgets/../lv_conf_internal.h \
+ /home/book/myself_exercise/project_driver_test/ui/lvgl/src/core/../widgets/../core/lv_obj.h \
+ /home/book/myself_exercise/project_driver_test/ui/lvgl/src/core/../widgets/../font/lv_font.h \
+ /home/book/myself_exercise/project_driver_test/ui/lvgl/src/core/../widgets/../font/lv_symbol_def.h \
+ /home/book/myself_exercise/project_driver_test/ui/lvgl/src/core/../widgets/../misc/lv_txt.h \
+ /home/book/myself_exercise/project_driver_test/ui/lvgl/src/core/../widgets/../draw/lv_draw.h
