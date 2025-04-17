@@ -28,4 +28,5 @@ void Page_System_Init(void) {
   ui_init();
   // 加载页面
   Main_Page_Register();
+  Camera_Page_Register();
 }

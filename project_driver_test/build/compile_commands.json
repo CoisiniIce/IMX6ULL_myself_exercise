@@ -1,0 +1,24 @@
+[
+    {
+        "arguments": [
+            "arm-buildroot-linux-gnueabihf-",
+            "-c",
+            "-DLV_CONF_INCLUDE_SIMPLE",
+            "-DLV_LVGL_H_INCLUDE_SIMPLE",
+            "-I/home/book/myself_exercise/project_driver_test/include",
+            "-I/home/book/myself_exercise/project_driver_test/ui",
+            "-I/home/book/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/freetype2",
+            "-isystem",
+            "/home/book/myself_exercise/project_driver_test/ui/lvgl",
+            "-isystem",
+            "/home/book/myself_exercise/project_driver_test/ui/lvgl/examples",
+            "-isystem",
+            "/home/book/myself_exercise/project_driver_test/ui/lv_drivers",
+            "-o",
+            "CMakeFiles/driver_test.dir/page/main_page.c.o",
+            "../page/main_page.c"
+        ],
+        "directory": "/home/book/myself_exercise/project_driver_test/build",
+        "file": "../page/main_page.c"
+    }
+]

@@ -1,6 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/driver_test.dir/page/bg_1024x600.c.o"
   "CMakeFiles/driver_test.dir/page/bg_1024x600.c.o.d"
+  "CMakeFiles/driver_test.dir/page/camera_bg.c.o"
+  "CMakeFiles/driver_test.dir/page/camera_bg.c.o.d"
+  "CMakeFiles/driver_test.dir/page/camera_page.c.o"
+  "CMakeFiles/driver_test.dir/page/camera_page.c.o.d"
+  "CMakeFiles/driver_test.dir/page/font_image.c.o"
+  "CMakeFiles/driver_test.dir/page/font_image.c.o.d"
   "CMakeFiles/driver_test.dir/page/main_page.c.o"
   "CMakeFiles/driver_test.dir/page/main_page.c.o.d"
   "CMakeFiles/driver_test.dir/page/page_manager.c.o"

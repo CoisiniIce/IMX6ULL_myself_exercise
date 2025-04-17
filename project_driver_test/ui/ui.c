@@ -1,7 +1,7 @@
 #include "ui.h"
 
 #define DISP_BUF_SIZE (1024 * 128)
-#define FREETYPE_FONT_FILE ("/etc/JetBrainsMono-Regular.ttf")
+#define FREETYPE_FONT_FILE ("/etc/STXIHEI.TTF")
 
 lv_indev_t *mouse_indev;
 lv_ft_info_t ft_info;
@@ -43,11 +43,11 @@ bool ui_init(void) {
 
   // Freetype
   ft_info.name = FREETYPE_FONT_FILE;
-  ft_info.weight = 24;
+  ft_info.weight = 16;
   ft_info.style = FT_FONT_STYLE_NORMAL;
   ft_info.mem = NULL;
   if (!lv_ft_font_init(&ft_info)) {
-    printf("create fialed.\r\n");
+    printf("create failed.\r\n");
   }
 
   // 使用输入设备必须创建一个组

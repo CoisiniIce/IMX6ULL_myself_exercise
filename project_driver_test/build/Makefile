@@ -250,6 +250,78 @@ page/bg_1024x600.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver_test.dir/build.make CMakeFiles/driver_test.dir/page/bg_1024x600.c.s
 .PHONY : page/bg_1024x600.c.s
 
+page/camera_bg.o: page/camera_bg.c.o
+.PHONY : page/camera_bg.o
+
+# target to build an object file
+page/camera_bg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver_test.dir/build.make CMakeFiles/driver_test.dir/page/camera_bg.c.o
+.PHONY : page/camera_bg.c.o
+
+page/camera_bg.i: page/camera_bg.c.i
+.PHONY : page/camera_bg.i
+
+# target to preprocess a source file
+page/camera_bg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver_test.dir/build.make CMakeFiles/driver_test.dir/page/camera_bg.c.i
+.PHONY : page/camera_bg.c.i
+
+page/camera_bg.s: page/camera_bg.c.s
+.PHONY : page/camera_bg.s
+
+# target to generate assembly for a file
+page/camera_bg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver_test.dir/build.make CMakeFiles/driver_test.dir/page/camera_bg.c.s
+.PHONY : page/camera_bg.c.s
+
+page/camera_page.o: page/camera_page.c.o
+.PHONY : page/camera_page.o
+
+# target to build an object file
+page/camera_page.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver_test.dir/build.make CMakeFiles/driver_test.dir/page/camera_page.c.o
+.PHONY : page/camera_page.c.o
+
+page/camera_page.i: page/camera_page.c.i
+.PHONY : page/camera_page.i
+
+# target to preprocess a source file
+page/camera_page.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver_test.dir/build.make CMakeFiles/driver_test.dir/page/camera_page.c.i
+.PHONY : page/camera_page.c.i
+
+page/camera_page.s: page/camera_page.c.s
+.PHONY : page/camera_page.s
+
+# target to generate assembly for a file
+page/camera_page.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver_test.dir/build.make CMakeFiles/driver_test.dir/page/camera_page.c.s
+.PHONY : page/camera_page.c.s
+
+page/font_image.o: page/font_image.c.o
+.PHONY : page/font_image.o
+
+# target to build an object file
+page/font_image.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver_test.dir/build.make CMakeFiles/driver_test.dir/page/font_image.c.o
+.PHONY : page/font_image.c.o
+
+page/font_image.i: page/font_image.c.i
+.PHONY : page/font_image.i
+
+# target to preprocess a source file
+page/font_image.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver_test.dir/build.make CMakeFiles/driver_test.dir/page/font_image.c.i
+.PHONY : page/font_image.c.i
+
+page/font_image.s: page/font_image.c.s
+.PHONY : page/font_image.s
+
+# target to generate assembly for a file
+page/font_image.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver_test.dir/build.make CMakeFiles/driver_test.dir/page/font_image.c.s
+.PHONY : page/font_image.c.s
+
 page/main_page.o: page/main_page.c.o
 .PHONY : page/main_page.o
 
@@ -366,6 +438,15 @@ help:
 	@echo "... page/bg_1024x600.o"
 	@echo "... page/bg_1024x600.i"
 	@echo "... page/bg_1024x600.s"
+	@echo "... page/camera_bg.o"
+	@echo "... page/camera_bg.i"
+	@echo "... page/camera_bg.s"
+	@echo "... page/camera_page.o"
+	@echo "... page/camera_page.i"
+	@echo "... page/camera_page.s"
+	@echo "... page/font_image.o"
+	@echo "... page/font_image.i"
+	@echo "... page/font_image.s"
 	@echo "... page/main_page.o"
 	@echo "... page/main_page.i"
 	@echo "... page/main_page.s"

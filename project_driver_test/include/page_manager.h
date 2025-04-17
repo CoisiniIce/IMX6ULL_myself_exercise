@@ -38,4 +38,11 @@ void Page_System_Init(void);
 */
 bool Main_Page_Register(void);
 
+/*
+ * @description: 注册相机页面，加入到管理器链表
+ * @param: 无
+ * @return: true/false
+*/
+bool Camera_Page_Register(void);
+
 #endif // !__PAGE_MANAGER_H__
