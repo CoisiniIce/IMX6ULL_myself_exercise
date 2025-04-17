@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/book/myself_exercise/project_driver_test/build/cmake_install.cmake",
+		"/home/book/myself_exercise/project_driver_test/build/ui/lvgl/cmake_install.cmake",
+		"/home/book/myself_exercise/project_driver_test/build/ui/lv_drivers/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,1 @@
+/home/book/myself_exercise/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc CMakeFiles/driver_test.dir/sys/main.c.o CMakeFiles/driver_test.dir/ui/ui.c.o -o driver_test  -lm lib/liblvgl.a ui/lvgl/liblvgl_examples.a lib/liblv_drivers.a lib/liblvgl.a

@@ -1,0 +1,25 @@
+ui/lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_tick.c.o: \
+ /home/book/myself_exercise/project_driver_test/ui/lvgl/src/hal/lv_hal_tick.c \
+ /home/book/myself_exercise/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/stdc-predef.h \
+ /home/book/myself_exercise/project_driver_test/ui/lvgl/src/hal/lv_hal_tick.h \
+ /home/book/myself_exercise/project_driver_test/ui/lvgl/src/hal/../lv_conf_internal.h \
+ /home/book/myself_exercise/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/lib/gcc/arm-buildroot-linux-gnueabihf/7.5.0/include/stdint.h \
+ /home/book/myself_exercise/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/stdint.h \
+ /home/book/myself_exercise/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/libc-header-start.h \
+ /home/book/myself_exercise/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/features.h \
+ /home/book/myself_exercise/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/sys/cdefs.h \
+ /home/book/myself_exercise/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/wordsize.h \
+ /home/book/myself_exercise/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/long-double.h \
+ /home/book/myself_exercise/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/gnu/stubs.h \
+ /home/book/myself_exercise/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/gnu/stubs-hard.h \
+ /home/book/myself_exercise/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/types.h \
+ /home/book/myself_exercise/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/timesize.h \
+ /home/book/myself_exercise/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/typesizes.h \
+ /home/book/myself_exercise/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/time64.h \
+ /home/book/myself_exercise/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/wchar.h \
+ /home/book/myself_exercise/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/stdint-intn.h \
+ /home/book/myself_exercise/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/stdint-uintn.h \
+ /home/book/myself_exercise/project_driver_test/ui/lvgl/src/hal/../lv_conf_kconfig.h \
+ /home/book/myself_exercise/project_driver_test/ui/lv_conf.h \
+ /home/book/myself_exercise/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/lib/gcc/arm-buildroot-linux-gnueabihf/7.5.0/include/stdbool.h \
+ /home/book/myself_exercise/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/lib/gcc/arm-buildroot-linux-gnueabihf/7.5.0/include/stddef.h
