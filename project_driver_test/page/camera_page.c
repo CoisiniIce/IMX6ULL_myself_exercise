@@ -80,6 +80,17 @@ static bool Camera_Page_Init(void) {
   lv_obj_align(cam_img, LV_ALIGN_CENTER, 0, 0);
   lv_obj_set_style_bg_opa(cam_img, LV_OPA_TRANSP, LV_STATE_DEFAULT);
 
+  // 打开摄像头的开关
+  lv_obj_t *cam_switch = lv_switch_create(camera_page);
+  lv_obj_set_size(cam_switch, 100, 60);
+  lv_obj_align_to(cam_switch, cam_container, LV_ALIGN_OUT_TOP_LEFT, 0, -10);
+  // 打开摄像头的开关上的文本
+  lv_obj_t *label_cam_switch = lv_label_create(camera_page);
+  lv_obj_set_style_text_font(label_cam_switch, ft_info.font, LV_STATE_DEFAULT);
+  lv_label_set_recolor(label_cam_switch, true);
+  lv_label_set_text(label_cam_switch, "#519ABA 摄像头未打开#");
+  lv_obj_align_to(label_cam_switch, cam_switch, LV_ALIGN_CENTER, 160, 0);
+
   // 返回按钮回调
   lv_obj_add_event_cb(btn_return, Btn_Return_Callback, LV_EVENT_CLICKED, NULL);
 
